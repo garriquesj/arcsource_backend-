@@ -1,7 +1,4 @@
-from sre_parse import SPECIAL_CHARS
-from tokenize import Special
 from django.db import models
-from django.shortcuts import render
 
 # Create your models here.
 class Creator(models.Model) :
@@ -28,5 +25,3 @@ class Showpiece(models.Model) :
     renders=models.TextField(blank=True,max_length=500)
     display_models=models.TextField(blank=True,max_length=500)
     full_presentaion=models.TextField(blank=True,max_length=500)
-    
-    

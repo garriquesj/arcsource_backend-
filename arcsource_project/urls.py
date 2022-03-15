@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from arcsource_project.api.views import Index
+from api.views import Index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
